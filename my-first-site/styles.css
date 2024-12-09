@@ -1,0 +1,20 @@
+p {
+	font-size:25px;
+}
+
+a {
+	color: red;
+	}
+
+.bing {
+	color: blue;
+	}
+
+.google {
+	color: orange;
+	}
+
+img {
+	width: 400px;
+	height: auto;
+}
