@@ -1,0 +1,54 @@
+body {
+	font-family: "Host Grotesk", serif;
+	margin: 5%;
+	padding-inline: 13%;
+	background: #F3E8E3;
+	font-size: 19px;
+}
+
+h1 {
+	display: table;
+	margin: left;
+	font-family: "Host Grotesk", sans-serif;
+	font-weight: 800;
+	font-size: 30px;
+	color: black;
+}
+
+h2 {
+	display: table;
+	margin: left;
+	font-family: "Host Grotesk", sans-serif;
+	font-weight: 300;
+    font-style: italic;
+	font-size: 20px;
+	color: black;
+	justify-content: left;
+}
+
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+.credits{
+	font-size: 12px;
+	float: right;
+}
+
+byline {
+	font-weight: 500;
+	font-size: 15px;
+}
+
+.image-box {
+	margin-bottom: 10%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+figcaption {
+    float: right;
+}
+
