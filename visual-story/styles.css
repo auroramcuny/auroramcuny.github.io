@@ -3,7 +3,8 @@ body {
 	margin: 5%;
 	padding-inline: 13%;
 	background: #F3E8E3;
-	font-size: 19px;
+	font-size: 18px;
+	font-weight: 300;
 }
 
 h1 {
@@ -11,8 +12,9 @@ h1 {
 	margin: left;
 	font-family: "Host Grotesk", sans-serif;
 	font-weight: 800;
-	font-size: 30px;
+	font-size: 35px;
 	color: black;
+	padding-top: 30px;
 }
 
 h2 {
@@ -30,11 +32,8 @@ h2 {
 img {
 	width: 100%;
 	height: auto;
-}
-
-.credits{
-	font-size: 12px;
-	float: right;
+	display: block;
+	border-radius: 20px;
 }
 
 byline {
@@ -43,12 +42,16 @@ byline {
 }
 
 .image-box {
+	margin: 0px;
 	margin-bottom: 10%;
-    margin-left: 0;
-    margin-right: 0;
+    /* margin-left: auto; */
+	border: 20px solid #ddd;
+	border-radius: 20px;
+	background-color: #ddd;
 }
 
 figcaption {
     float: right;
+	font-size: 13px;;
 }
 
