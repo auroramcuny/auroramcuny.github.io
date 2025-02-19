@@ -9,6 +9,11 @@
         
         @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
+        h1, p {
+            margin: 0;
+            padding: 0;
+        }
+
         h1 {
             font-family: "DM Serif Text", serif;
         font-weight: 900;
@@ -16,7 +21,9 @@
         font-size: 50px;
         letter-spacing: 2px;
         text-align: center;
-            color: #0a0ab0;
+            color: #FFFF;
+            background-color: #CA6680;
+
         }
 
         p.name {
@@ -24,12 +31,16 @@
             text-transform: uppercase;
             text-align: center;
             font-size: 20px;
-            color: #0a0ab0;
+            color: #980A30;
+            text-align: left;
+            padding-top: 10px;
+            padding-bottom: 10px;
         }
 
         p {
             font-family: "Open Sans", sans-serif;
             font-size: 1em;
+
         }
 
         span {
@@ -38,18 +49,20 @@
 
         .container {
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: wrap; 
         justify-content: center;
         flex-wrap: nowrap;
+        margin-top: 20px;
         }
 
         .box {
             flex: 1;
             margin: 10px;
-            border: 1px solid #2e17af;
+            border: 2px dotted #080B0F;
             padding: 10px;
-            box-sizing: border-box;
             max-width: 30%;
+            border-top: 10px solid #080B0F;
+            background-color: #f1e3d3;
         }
 
         span.songs {
