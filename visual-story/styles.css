@@ -2,30 +2,37 @@ body {
 	font-family: "Host Grotesk", serif;
 	margin: 5%;
 	padding-inline: 13%;
-	background: #F3E8E3;
+	/* background: #F3E8E3; */
+	background: #fff6ef;
 	font-size: 18px;
 	font-weight: 300;
 }
 
 h1 {
 	display: table;
-	margin: left;
+	margin: auto;
 	font-family: "Host Grotesk", sans-serif;
 	font-weight: 800;
 	font-size: 35px;
-	color: black;
+	color: #003049;
 	padding-top: 30px;
 }
 
 h2 {
 	display: table;
-	margin: left;
+	margin: auto;
+	margin-bottom: 5%;
 	font-family: "Host Grotesk", sans-serif;
 	font-weight: 300;
     font-style: italic;
 	font-size: 20px;
 	color: black;
 	justify-content: left;
+}
+
+.container {
+	margin: auto;
+	max-width: 70%;
 }
 
 
@@ -45,13 +52,27 @@ byline {
 	margin: 0px;
 	margin-bottom: 10%;
     /* margin-left: auto; */
-	border: 20px solid #ddd;
+	/* border: 20px solid #D4BDAB; */
 	border-radius: 20px;
 	background-color: #ddd;
+	margin-left: -20%;
+	margin-right: -20%;
 }
 
 figcaption {
     float: right;
 	font-size: 13px;;
+}
+
+.quote {
+	color: white;
+	text-align: center;
+	font-size: 1.2em;
+	border: 10px solid #780000;
+	border-radius: 20px;
+	background-color: #780000;
+	font-style: italic;
+	margin-left: -35%;
+  	margin-right: -35%;
 }
 
