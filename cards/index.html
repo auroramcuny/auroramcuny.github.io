@@ -70,24 +70,50 @@
             font-style: italic;
         }
 
+        img {
+            display: flex;
+            max-height: 180px;
+            width: auto;
+            /* width: 100%; */
+            margin: 0 auto;
+            justify-content: center;
+            justify-items: center;
+            align-items: center;
+
+        }
+
+        @media (max-width: 600px) {
+
+        .container > .box {
+            display: flex;
+            max-width: 100%;
+            flex-direction: column;
+
+        }
+
+} 
+
     </style>
 </head>
 <body>
     <h1>Billboard Hot Artists</h1>
     <div class="container">
         <div class="box">
+            <img src="dua_lipa.jpg" alt="Dua Lipa">
         <p class="name">Dua Lipa, 29</p>
         <p><span>Hometown: </span>London, England</p>
         <p><span>Genre: </span>Pop</p>
         <p><span>Most Popular Song: </span> <span class=songs>Don't Start Now (2019)</span> </p>
         </div>
         <div class="box">
+            <img src="Kacey_Musgraves.jpg" alt="Kacey Musgraves">
         <p class="name">Kacey Musgraves, 36</p>
         <p><span>Hometown: </span>Golden, Texas</p>
         <p><span>Genre: </span>Country</p>
         <p><span>Most Popular Song: </span> <span class=songs>Follow Your Arrow (2013)</span> </p>
         </div>
         <div class="box">
+            <img src="kendrick_lamar.jpg" alt="Kendrick Lamar">
         <p class="name">Kendrick Lamar, 37</p>
         <p><span>Hometown: </span>Compton, California</p>
         <p><span>Genre: </span>Hip-Hop</p>
