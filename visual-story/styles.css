@@ -1,38 +1,35 @@
 body {
-	font-family: "Host Grotesk", serif;
 	margin: 5%;
-	padding-inline: 13%;
-	/* background: #F3E8E3; */
 	background: #fff6ef;
-	font-size: 18px;
-	font-weight: 300;
 }
 
 h1 {
-	display: table;
 	margin: auto;
 	font-family: "Host Grotesk", sans-serif;
 	font-weight: 800;
 	font-size: 35px;
 	color: #003049;
 	padding-top: 30px;
+	text-align: center;
 }
 
 h2 {
-	display: table;
 	margin: auto;
-	margin-bottom: 5%;
+	margin-bottom: 2%;
 	font-family: "Host Grotesk", sans-serif;
 	font-weight: 300;
-    font-style: italic;
+	font-style: italic;
 	font-size: 20px;
 	color: black;
 	justify-content: left;
+	text-align: center;
 }
 
-.container {
-	margin: auto;
-	max-width: 70%;
+
+.story {
+	font-family: "Host Grotesk", serif;
+	font-size: 18px;
+	font-weight: 300;
 }
 
 
@@ -43,25 +40,24 @@ img {
 	border-radius: 20px;
 }
 
-byline {
-	font-weight: 500;
-	font-size: 15px;
-}
-
 .image-box {
 	margin: 0px;
 	margin-bottom: 10%;
-    /* margin-left: auto; */
-	/* border: 20px solid #D4BDAB; */
 	border-radius: 20px;
 	background-color: #ddd;
-	margin-left: -20%;
-	margin-right: -20%;
+
 }
 
 figcaption {
+	font-family: "Host Grotesk", serif;
     float: right;
 	font-size: 13px;;
+}
+
+.container {
+	margin: auto;
+	max-width: 70%;
+
 }
 
 .quote {
@@ -72,7 +68,35 @@ figcaption {
 	border-radius: 20px;
 	background-color: #780000;
 	font-style: italic;
-	margin-left: -35%;
-  	margin-right: -35%;
+	margin-left: -20%;
+  	margin-right: -20%;
 }
 
+@media (max-width: 600px) {
+
+	.container {
+		margin: auto;
+		max-width: 90%;
+	
+	}
+
+	.quote {
+		color: white;
+		text-align: center;
+		font-size: 1.2em;
+		border: 10px solid #780000;
+		border-radius: 20px;
+		background-color: #780000;
+		font-style: italic;
+		margin-left: -5%;
+		margin-right: -5%;
+
+	}
+
+	body {
+		margin: 2%;
+		background: #fff6ef;
+	}
+
+	
+}
