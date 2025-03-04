@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Basics</title>
+    <style>
+        *:not(code) {
+            font-family: sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Class 6: Calculate the vote results for NY with Kamala Harris</h1>
+    <h2>Goal: Calculate voting percentage and determine which candidate won and by what margin. It should look like this:</h2>
+    <code>Kamala Harris won New York with 56.4% of the vote, about 13 points more than Donald Trump, who had 43.6%.</code>
+    <h3>Things to keep in mind</h3>
+    <ul>
+        <li>You'll need to format the numbers a bit -- there's a powerful tool called <code>.ToFixed()</code> in Javascript you can use to round numbers</li>
+        <li>You have all the data needed, but you need to figure out which variables to do and how to calculate it</li>
+    </ul>
+     <script>
+        //Votes
+        const kamalaVotes = '4583210';
+        const trumpVotes = '3548552';
+
+        const kamalaVotes_number = Number(kamalaVotes);
+        const trumpVotes_number = Number(trumpVotes);
+
+        console.log(trumpVotes_number);
+        console.log(kamalaVotes_number);
+
+        const totalvotes = kamalaVotes_number + trumpVotes_number;
+        console.log(totalvotes);
+
+        Kamalapercent = kamalaVotes_number / totalvotes * 100;
+        Trumppercent = trumpVotes_number / totalvotes * 100;
+        console.log(Kamalapercent);
+        console.log(Trumppercent);
+
+        votepointdif = kamalaVotes_number - trumpVotes_number;
+        console.log(votepointdif);
+
+
+        function printline(){
+            console.log(`Kamala Harris won New York with ${Kamalapercent.toFixed(1)}% of the vote, about ${(Kamalapercent - Trumppercent).toFixed(1)} points more than Donald Trump, who had ${Trumppercent.toFixed(1)}%.`);
+
+        }
+
+        printline(
+            
+        )
+
+
+
+
+
+
+
+
+
+
+
+
+
+        // const total_votes = (kamalaVotes + trumpVotes)
+        
+        //Convert the Numbers
+
+        //Write a function to calculate the share of votes each candidate got and save it to variables
+
+        //Write a console.log that prints out a message of the result
+    
+     </script>
+</body>
+</html>
