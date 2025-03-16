@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+    margin: 0
+}
+
+h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: "DM Serif Text", serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 50px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #FFFF;
+    background-color: #509344;
+
+}
+
+p.name {
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 20px;
+    color: #980A30;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1em;
+
+}
+
+span {
+    font-weight: bold;
+}
+
+div.container {
+    box-sizing: 30%;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    justify-content: center;
+    max-width: 100%;
+    margin: 0 20%;
+    flex-wrap: wrap;
+}
+
+div.photo-container {
+    flex: 1;
+    margin: 10px;
+    border: 2px solid #080B0F;
+    border-radius: 2%;
+    padding: 10px 20px;
+    max-width: calc(50% - 5px);
+    /* max-width: 30%; */
+    background-color: #e6e3e0;
+
+}
+
+img {
+    display: flex;
+    max-height: 200px;
+    /* width: auto; */
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+
+}
+
+.visitors {
+    margin-top: 10px;
+    width: 100%;
+    border-collapse: collapse;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1em;
+    text-align: center;
+}
+
+th, td {
+    border-bottom: 1px solid #080B0F;
+}
+
+
+@media (min-width: 601px) and (max-width: 1199px) { 
+
+    div.photo-container {
+        max-width: 525px;
+        padding: 20px; 
+        float: left;
+        width: 50%;
+        margin-right: 10px;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+div.photo-container {
+min-width: 100%;
+}
+
+} 
