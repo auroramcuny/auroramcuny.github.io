@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Basics</title>
+    <style>
+        *:not(code) {
+            font-family: sans-serif;
+        }
+
+
+        table {
+            gap: 0;
+        }
+
+        /* Table header styling */
+        th {
+            border-bottom: 2px solid black;
+            text-align: left;
+            vertical-align: bottom;
+        }
+
+
+        td, th {
+        padding: 0.75em;
+        gap: 0;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Class 8: Create an HTML Table with a loop</h1>
+    <h2>Goal: Using loops and the DOM, create a table based on a dataset</h2>
+    <h3>Things to keep in mind</h3>
+    <ul>
+        <li>Study your <code>Table</code> elements. This is a good resource: <a href="https://www.w3schools.com/html/html_tables.asp">W3 Schools</a></li>
+        <li>There’s more than one way to do the second part of the problem – I’ll post two solutions at the end.</li>
+        <li>You’ll need to use <code>toLocaleString()</code> to format the numbers</li>
+    </ul>
+
+    <!-- Select the table below!-->
+    <table id="table">
+        <thead id="table_head">
+
+        </thead>
+        <tbody id="table_body">
+
+        </tbody>
+
+    </table>
+
+     <script>
+        //Votes 2020-2024
+        const boroughs = [
+            {
+                borough: "Manhattan",
+                trumpVotes2024: 113921,
+                harrisVotes2024: 533782,
+                demVoteChange: 169509,
+                repVoteChange: 29471,
+                harrisVotePercentage: 82.39,
+                trumpVotePercentage: 17.61
+            },
+            {
+                borough: "Bronx",
+                trumpVotes2024: 98174,
+                harrisVotes2024: 261670,
+                demVoteChange: -56733,
+                repVoteChange: 42292,
+                harrisVotePercentage: 72.74,
+                trumpVotePercentage: 27.26
+            },
+            {
+                borough: "Brooklyn",
+                trumpVotes2024: 233964,
+                harrisVotes2024: 601265,
+                demVoteChange: 114131,
+                repVoteChange: 100311,
+                harrisVotePercentage: 71.97,
+                trumpVotePercentage: 28.03
+            },
+            {
+                borough: "Queens",
+                trumpVotes2024: 264628,
+                harrisVotes2024: 437282,
+                demVoteChange: 14658,
+                repVoteChange: 109243,
+                harrisVotePercentage: 62.29,
+                trumpVotePercentage: 37.71
+            },
+            {
+                borough: "Staten Island",
+                trumpVotes2024: 128151,
+                harrisVotes2024: 69345,
+                demVoteChange: 17175,
+                repVoteChange: 31634,
+                harrisVotePercentage: 35.11,
+                trumpVotePercentage: 64.89
+            }
+        ];
+
+        const headers = ['Borough','2024 Trump votes','2024 Harris votes','Dem vote change from 2020','Rep vote change from 2020','Harris vote percentage','Trump vote percentage'];
+
+        //make a variable that selects table body by its id
+        const table_body = document.getElementById('table_body');
+
+        //make a variable that selects table head by its id
+        
+        const table_head = document.getElementById('table_head');
+
+        //make a variable that creates a <tr> element for the headers 
+
+        const tr = document.createElement('tr');
+
+        //make a forEach loop that goes through the headers array and adds headers to the table
+        headers.forEach(function(head) {
+
+            //create a <th> element
+
+                const th = document.createElement('th');
+
+            //add the header name to the <th> element as text
+
+                th.innerText = head;
+
+            //append the header to the <tr> element for the headers
+                tr.append(th);
+
+        });
+
+        //append the <tr> element for the headers to the table head
+
+                table_head.append(tr);
+
+
+        //make a forEach loop that goes through the data array and adds rows to the table
+        boroughs.forEach(function(borough) {
+
+            //make a variable that creates a <tr> element for each borough
+            let tr1 = document.createElement('tr');
+
+            //create a string that contains the table row items (<td> elements) for each borough as html
+
+            let items = `
+            
+            <td>${borough.borough}</td>
+            <td>${borough.trumpVotes2024.toLocaleString(1)}</td>
+            <td>${borough.harrisVotes2024.toLocaleString(1)}</td>
+            <td>${borough.demVoteChange.toLocaleString(1)}</td>
+            <td>${borough.repVoteChange.toLocaleString(1)}</td>
+            <td>${borough.harrisVotePercentage}%</td>
+            <td>${borough.trumpVotePercentage}%</td>`;
+
+            //add the html to the <tr> element 
+
+            tr1.innerHTML = items;
+
+            //add the <tr> element to the table body
+
+            table_body.append(tr1);
+
+            // makeTable(borough.borough, borough.trumpVotes2024,borough.harrisVotes2024, borough.demVoteChange, borough.repVoteChange, borough.harrisVotePercentage, borough.trumpVotePercentage);
+
+        })
+
+        
+    
+     </script>
+</body>
+</html>

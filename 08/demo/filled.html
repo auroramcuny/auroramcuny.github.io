@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript: Document Object Model</title>
+
+    <style>
+            #container > div:not(.cityCards) {
+                width: 200px;
+                height: 100px;
+                background-color: gray;
+            }
+
+            #container > div.cityCards {
+                width: 200px;
+                height: auto;
+                background-color: gray;
+                padding: 10px;
+            }
+
+            #container {
+                display: flex;
+                gap: 10px;
+            }
+
+            p.record {
+                text-transform: uppercase;
+                font-size: 11px;
+                letter-spacing: 0.5px;
+                color: #fff;
+                padding: 2px 5px;
+                background-color: red;
+                border-radius: 5px;
+                display: inline-block;
+                margin: 0;
+            }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <!-- <div class="green">green</div>
+        <div class="blue">blue</div>
+        <div class="green">green</div>
+        <div class="red">red</div>
+        <div class="red">red</div>
+        <div id="last_card" class="orange">orange</div> -->
+
+        <!-- <div class="cityCards"><h2>Phoenix, Arizona</h2><p>130°F</p><p class="record">record broken</p></div> -->
+    </div>
+     <script>
+
+            // make all cards with the class "green" with a green top border, 5px wide, solid stroke
+
+            let green_cards = document.getElementsByClassName('green');
+
+            for (let index = 0; index < green_cards.length; index++) {
+                green_cards[index].style.borderTop = '5px solid green';
+            }
+
+            // make all cards with the class "red" a bottom border, a width of 3px, and dotted stroke
+
+            let red_cards = document.getElementsByClassName('red');
+
+            for (let index = 0; index < red_cards.length; index++) {
+                red_cards[index].style.borderBottom = '3px dotted red';
+            }
+
+            // for the orange card, give it a background color 
+
+            let orange_card = document.getElementById('last_card');
+
+            orange_card.style.backgroundColor = 'Orange';
+
+            // for the div with id "last_card", append a h1 tag to it that says "this is the last card"
+
+            let header_tag = document.createElement('h1');
+
+            header_tag.textContent = 'this is the last card';
+
+            orange_card.append(header_tag);
+
+            // for the blue card append a div with a brown background
+            
+            let blue_card = document.getElementsByClassName('blue')[0];
+
+            let brown_div = document.createElement('div');
+
+            brown_div.style.backgroundColor = 'brown';
+            brown_div.style.height = '100px';
+            brown_div.style.width = '50px';
+
+            blue_card.append(brown_div);
+
+            // remove any card with the class "red" from the DOM via javascript
+
+            // let red_cards = document.getElementsByClassName('red');
+
+            while (red_cards.length > 0) {
+                red_cards[0].remove();
+            }
+
+            // or
+
+            for (let index = 0; index < red_cards.length; index++) {
+                red_cards[index].style.display = 'none';
+            }
+
+            // let's make some cards!
+
+            // Our variables
+
+            const cities = [
+            {
+                city: "New York",
+                state: "New York",
+                currentTemperature: 110, 
+                historicHigh: 106
+            },
+            {
+                city: "Los Angeles",
+                state: "California",
+                currentTemperature: 29, 
+                historicHigh: 113
+            },
+            {
+                city: "Chicago",
+                state: "Illinois",
+                currentTemperature: 102, 
+                historicHigh: 105
+            },
+            {
+                city: "Houston",
+                state: "Texas",
+                currentTemperature: 109, 
+                historicHigh: 109
+            },
+            {
+                city: "Phoenix",
+                state: "Arizona",
+                currentTemperature: 130, 
+                historicHigh: 122
+            }
+        ];
+
+
+        //select the container to add elements
+        let container = document.getElementById('container');
+
+
+        //let's modify this function
+        function makeCards(today, city, state, historic){
+
+            //make full geographic name
+            const full_city = city + ', ' + state;
+
+            //get temperature difference
+            const difference = today - historic;
+
+            //Let's create a div
+            let elementDiv = document.createElement('div');
+
+            //We're going to add a class!
+            elementDiv.classList.add('cityCards');
+
+            //make a blank HTML Element
+
+            let recordBrokeHTML = '';
+
+            //if today is more than historical high
+            if (difference > 0) {
+                // make a tag that says it's a new record
+                recordBrokeHTML = '<p class="record">record broken</p>';
+
+            }
+
+            
+            //create inside card text
+
+            let cardText = `<h2>${full_city}</h2><p>${today}°F</p>${recordBrokeHTML}`;
+
+            //add inside card text to the div
+
+            elementDiv.innerHTML = cardText;
+
+            //append div to the container
+
+            container.append(elementDiv);
+
+        }
+
+
+        //loop and get data
+        cities.forEach(function(c){
+            makeCards(c.currentTemperature, c.city, c.state, c.historicHigh);
+        })
+
+
+
+
+
+     </script>
+</body>
+</html>
