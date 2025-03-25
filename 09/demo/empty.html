@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript: Events</title>
+
+    <style>
+
+            * {
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            #container > div {
+                width: 200px;
+                height: 100px;
+                background-color: lightgray;
+                padding: 10px;
+            }
+
+            #container > div.cityCards {
+                height: fit-content;
+            } 
+
+            #container {
+                display: flex;
+                gap: 10px;
+            }
+
+            h2 {
+                margin-top: 0px;
+                font-size: 18px;
+            }
+
+            #button-container {
+                margin-bottom: 10px;
+            }
+
+            button {
+                padding: 5px 10px;
+                border-radius: 5px;
+                border: 1px solid gray;
+                background-color: lightblue;
+            }
+
+            /* button:hover {
+                background-color: darkblue;
+                color: #fff;
+                border: 1px solid #fff;
+                cursor: pointer;
+            } */
+
+            .hover {
+                background-color: rgb(163, 163, 225);
+                color: #fff;
+                border: 1px solid #fff;
+                cursor: pointer;
+            }
+
+            .clicked {
+                background-color: darkblue;
+                color: #fff;
+                border: 1px solid #fff;
+                cursor: pointer; 
+            }
+
+            p.record {
+                text-transform: uppercase;
+                font-size: 11px;
+                letter-spacing: 0.5px;
+                color: #fff;
+                padding: 2px 5px;
+                background-color: red;
+                border-radius: 5px;
+                display: inline-block;
+                margin: 0;
+            }
+
+            #button-container > h3 {
+                display: inline;
+            }
+
+            #button-container {
+                margin-bottom: 20px;
+            }
+
+    </style>
+</head>
+<body>
+    <div id="button-container">
+        <h3>Category:</h3>
+        <button id="all" value="all">All cities</button>
+        <button id="record" value="record">Record broken</button>
+    </div>
+
+    <div id="container">
+        <div class="cityCards" data-broken-record="record">
+            <h2>New York, New York</h2>
+            <p>110°F</p>
+            <p class="record">record broken</p>
+        </div>
+        <div class="cityCards" data-broken-record="none">
+            <h2>Los Angeles, California</h2>
+            <p>29°F</p>
+        </div>
+        <div class="cityCards" data-broken-record="none">
+            <h2>Chicago, Illinois</h2>
+            <p>102°F</p>
+        </div>
+        <div class="cityCards" data-broken-record="none">
+            <h2>Houston, Texas</h2>
+            <p>109°F</p>
+        </div>
+        <div class="cityCards" data-broken-record="record">
+            <h2>Phoenix, Arizona</h2>
+            <p>130°F</p>
+            <p class="record">record broken</p>
+        </div>
+    </div>
+    <script>
+
+
+        //Let's make our cards interactive!
+
+        //hover/clicked classes are above, values are in the buttons, data-filter is in the cards
+
+        //select a button
+
+        let singleButton = document.querySelector ('button');
+
+        //show how it only selects one button
+
+        //select multiple buttons
+
+        let allButtons = document.querySelectorAll ('button')
+
+        //select all those cards
+
+        let allCards = document.querySelectorAll ('#container > .cityCards')
+
+        //events!
+
+        //add hover event for button
+
+        //on enter
+
+        // singleButton.addEventListener('mouseenter',
+        // function(){
+        //     this.classList.add('hover');
+
+        // })
+
+
+        //add a second one
+
+        // singleButton.addEventListener('mouseenter',
+        // function(){
+        //     console.log('this is a second event');
+
+
+        // })
+        //on exit
+
+        // singleButton.addEventListener('mouseleave',
+        // function(){
+        //     this.classList.remove('hover');
+
+        // })
+            
+        //click event
+
+        // singleButton.addEventListener('click',function(){
+        //     console.log('clicked');
+        // })
+
+        //let's get hover events
+
+        //loop through the buttons to add event listeners
+
+        allButtons.forEach(function(btn){
+            
+
+            //if the mouse enters the button
+
+            btn.addEventListener('mouseenter',function(){
+                this.classList.add('hover');
+
+                //make the button purple
+
+            })
+
+            //if the mouse leaves the button
+            btn.addEventListener('mouseleave',function(){
+                 //turn the button back to gray
+                 this.classList.remove('hover');
+            })
+
+            })
+
+        // look through again and add click events
+            allButtons.forEach(function(btn){
+
+            //add a click event
+            btn.addEventListener('click',function(){
+
+                //remove the clicked class from all buttons
+
+            allButtons.forEach(function(btn){
+                btn.classList.remove('clicked');
+            })
+
+                //add the clicked class to the button that was clicked
+
+                this.classList.add('clicked');
+
+                //get the filter value
+                let filterValue = this.value;
+                console.log(filterValue);
+                
+                // loop through each card and filter out the ones that don't have that class
+                allCards.forEach(function(card){
+
+                  
+                    // Show all items if filter is "all", otherwise filter by class
+                
+                    if (filterValue == 'all' ||
+                    filterValue == card.getAttribute
+                    ('data-broken-record')){
+                        card.style.display = 'block';
+                    }
+                    else{
+                        card.style.display = 'none';
+                    }
+               
+                })  
+
+                })
+
+
+             })
+
+
+
+
+
+
+     </script>
+</body>
+</html>
