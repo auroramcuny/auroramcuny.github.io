@@ -91,6 +91,15 @@ th, td {
     border-bottom: 1px solid #080B0F;
 }
 
+select {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 1%;
+    font-size: 16px;
+}
+
 
 @media (min-width: 601px) and (max-width: 1199px) { 
 

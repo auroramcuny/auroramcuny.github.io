@@ -650,6 +650,9 @@ function makeCards(ParkName, ParkType, RegionName, parkData) {
     // Add a class
     elementDiv.classList.add('photo-container');
 
+    elementDiv.setAttribute('region', RegionName);
+    console.log(RegionName);
+
     // Create the card header
     let cardHeader = `
         <h2 class="name">${ParkName}</h2>
@@ -690,3 +693,24 @@ Object.keys(groupedParks).forEach(ParkName => {
     const { ParkType, RegionName } = parkData[0]; // Use the first entry for common details
     makeCards(ParkName, ParkType, RegionName, parkData);
 });
+
+let dropdown = document.getElementById('filterDropdown');
+
+let cards = document.querySelectorAll('div.photo-container'); 
+
+dropdown.addEventListener('change', function(){
+  let filterValue = this.value;
+
+  cards.forEach(function(card){ 
+      // If the dropdown value equals the region of the card or 'all', display the card
+      if (filterValue === 'all' || card.getAttribute('region') === filterValue) {
+        card.style.display = 'block';
+      }
+      // Otherwise, hide the card
+      else {
+        card.style.display = 'none';
+      }    
+  });
+
+
+})
