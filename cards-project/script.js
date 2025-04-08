@@ -98,7 +98,7 @@ const parks = [
     {
       "RegionName": "Northeast  Region",
       "ParkName": "Delaware Water Gap National Recreation Area",
-      "Image": "delaware-water-gap.jpg",
+      "Image": "Delaware-Water-Gap.jpg",
       "ParkType": "National Recreation Area",
       "Year": 2024,
       "TRV": "4,079,763"
@@ -106,7 +106,7 @@ const parks = [
     {
       "RegionName": "Northeast  Region",
       "ParkName": "Delaware Water Gap National Recreation Area",
-      "Image": "delaware-water-gap.jpg",
+      "Image": "Delaware-Water-Gap.jpg",
       "ParkType": "National Recreation Area",
       "Year": 2023,
       "TRV": "4,207,541"
@@ -114,7 +114,7 @@ const parks = [
     {
       "RegionName": "Northeast  Region",
       "ParkName": "Delaware Water Gap National Recreation Area",
-      "Image": "delaware-water-gap.jpg",
+      "Image": "Delaware-Water-Gap.jpg",
       "ParkType": "National Recreation Area",
       "Year": 2022,
       "TRV": "4,380,225"
@@ -122,7 +122,7 @@ const parks = [
     {
       "RegionName": "Northeast  Region",
       "ParkName": "Delaware Water Gap National Recreation Area",
-      "Image": "delaware-water-gap.jpg",
+      "Image": "Delaware-Water-Gap.jpg",
       "ParkType": "National Recreation Area",
       "Year": 2021,
       "TRV": "4,340,902"
@@ -130,7 +130,7 @@ const parks = [
     {
       "RegionName": "Northeast  Region",
       "ParkName": "Delaware Water Gap National Recreation Area",
-      "Image": "delaware-water-gap.jpg",
+      "Image": "Delaware-Water-Gap.jpg",
       "ParkType": "National Recreation Area",
       "Year": 2020,
       "TRV": "4,068,529"
@@ -138,7 +138,7 @@ const parks = [
     {
       "RegionName": "Northeast  Region",
       "ParkName": "Delaware Water Gap National Recreation Area",
-      "Image": "delaware-water-gap.jpg",
+      "Image": "Delaware-Water-Gap.jpg",
       "ParkType": "National Recreation Area",
       "Year": 2019,
       "TRV": "3,374,865"
@@ -146,7 +146,7 @@ const parks = [
     {
       "RegionName": "Northeast  Region",
       "ParkName": "Gateway National Recreation Area",
-      "Image": "gateway-national-recreation-area.jpg",
+      "Image": "Gateway-National-Recreation-Area.jpg",
       "ParkType": "National Recreation Area",
       "Year": 2024,
       "TRV": "8,929,035"
@@ -154,7 +154,7 @@ const parks = [
     {
       "RegionName": "Northeast  Region",
       "ParkName": "Gateway National Recreation Area",
-      "Image": "gateway-national-recreation-area.jpg",
+      "Image": "Gateway-National-Recreation-Area.jpg",
       "ParkType": "National Recreation Area",
       "Year": 2023,
       "TRV": "8,705,329"
@@ -162,7 +162,7 @@ const parks = [
     {
       "RegionName": "Northeast  Region",
       "ParkName": "Gateway National Recreation Area",
-      "Image": "gateway-national-recreation-area.jpg",
+      "Image": "Gateway-National-Recreation-Area.jpg",
       "ParkType": "National Recreation Area",
       "Year": 2022,
       "TRV": "8,728,291"
@@ -170,7 +170,7 @@ const parks = [
     {
       "RegionName": "Northeast  Region",
       "ParkName": "Gateway National Recreation Area",
-      "Image": "gateway-national-recreation-area.jpg",
+      "Image": "Gateway-National-Recreation-Area.jpg",
       "ParkType": "National Recreation Area",
       "Year": 2021,
       "TRV": "9,060,807"
@@ -178,7 +178,7 @@ const parks = [
     {
       "RegionName": "Northeast  Region",
       "ParkName": "Gateway National Recreation Area",
-      "Image": "gateway-national-recreation-area.jpg",
+      "Image": "Gateway-National-Recreation-Area.jpg",
       "ParkType": "National Recreation Area",
       "Year": 2020,
       "TRV": "8,404,728"
@@ -186,7 +186,7 @@ const parks = [
     {
       "RegionName": "Northeast  Region",
       "ParkName": "Gateway National Recreation Area",
-      "Image": "gateway-national-recreation-area.jpg",
+      "Image": "Gateway-National-Recreation-Area.jpg",
       "ParkType": "National Recreation Area",
       "Year": 2019,
       "TRV": "9,405,622"
@@ -194,7 +194,7 @@ const parks = [
     {
       "RegionName": "Northeast  Region",
       "ParkName": "Gauley River National Recreation Area",
-      "Image": "gauley-river.jpg",
+      "Image": "Gauley-River.jpg",
       "ParkType": "National Recreation Area",
       "Year": 2024,
       "TRV": "272,898"
@@ -202,7 +202,7 @@ const parks = [
     {
       "RegionName": "Northeast  Region",
       "ParkName": "Gauley River National Recreation Area",
-      "Image": "gauley-river.jpg",
+      "Image": "Gauley-River.jpg",
       "ParkType": "National Recreation Area",
       "Year": 2023,
       "TRV": "187,223"
@@ -210,7 +210,7 @@ const parks = [
     {
       "RegionName": "Northeast  Region",
       "ParkName": "Gauley River National Recreation Area",
-      "Image": "gauley-river.jpg",
+      "Image": "Gauley-River.jpg",
       "ParkType": "National Recreation Area",
       "Year": 2022,
       "TRV": "163,510"
@@ -218,7 +218,7 @@ const parks = [
     {
       "RegionName": "Northeast  Region",
       "ParkName": "Gauley River National Recreation Area",
-      "Image": "gauley-river.jpg",
+      "Image": "Gauley-River.jpg",
       "ParkType": "National Recreation Area",
       "Year": 2021,
       "TRV": "167,794"
@@ -226,7 +226,7 @@ const parks = [
     {
       "RegionName": "Northeast  Region",
       "ParkName": "Gauley River National Recreation Area",
-      "Image": "gauley-river.jpg",
+      "Image": "Gauley-River.jpg",
       "ParkType": "National Recreation Area",
       "Year": 2020,
       "TRV": "109,378"
@@ -234,7 +234,7 @@ const parks = [
     {
       "RegionName": "Northeast  Region",
       "ParkName": "Gauley River National Recreation Area",
-      "Image": "gauley-river.jpg",
+      "Image": "Gauley-River.jpg",
       "ParkType": "National Recreation Area",
       "Year": 2019,
       "TRV": "119,282"
@@ -242,7 +242,7 @@ const parks = [
     {
       "RegionName": "Northeast  Region",
       "ParkName": "New River Gorge National Park & PRES",
-      "Image": "new-river-gorge.jpg",
+      "Image": "New-River-Gorge.jpg",
       "ParkType": "National Park",
       "Year": 2024,
       "TRV": "1,811,937"
@@ -250,7 +250,7 @@ const parks = [
     {
       "RegionName": "Northeast  Region",
       "ParkName": "New River Gorge National Park & PRES",
-      "Image": "new-river-gorge.jpg",
+      "Image": "New-River-Gorge.jpg",
       "ParkType": "National Park",
       "Year": 2023,
       "TRV": "1,707,223"
@@ -258,7 +258,7 @@ const parks = [
     {
       "RegionName": "Northeast  Region",
       "ParkName": "New River Gorge National Park & PRES",
-      "Image": "new-river-gorge.jpg",
+      "Image": "New-River-Gorge.jpg",
       "ParkType": "National Park",
       "Year": 2022,
       "TRV": "1,593,523"
@@ -266,7 +266,7 @@ const parks = [
     {
       "RegionName": "Northeast  Region",
       "ParkName": "New River Gorge National Park & PRES",
-      "Image": "new-river-gorge.jpg",
+      "Image": "New-River-Gorge.jpg",
       "ParkType": "National Park",
       "Year": 2021,
       "TRV": "1,682,720"
@@ -274,7 +274,7 @@ const parks = [
     {
       "RegionName": "Northeast  Region",
       "ParkName": "New River Gorge National Park & PRES",
-      "Image": "new-river-gorge.jpg",
+      "Image": "New-River-Gorge.jpg",
       "ParkType": "National Park",
       "Year": 2020,
       "TRV": "1,054,374"
@@ -282,7 +282,7 @@ const parks = [
     {
       "RegionName": "Northeast  Region",
       "ParkName": "New River Gorge National Park & PRES",
-      "Image": "new-river-gorge.jpg",
+      "Image": "New-River-Gorge.jpg",
       "ParkType": "National Park",
       "Year": 2019,
       "TRV": "1,195,721"
@@ -338,7 +338,7 @@ const parks = [
     {
       "RegionName": "Southeast  Region",
       "ParkName": "Biscayne National Park",
-      "Image": "biscayne.jpg",
+      "Image": "Biscayne.jpg",
       "ParkType": "National Park",
       "Year": 2024,
       "TRV": "512,213"
@@ -346,7 +346,7 @@ const parks = [
     {
       "RegionName": "Southeast  Region",
       "ParkName": "Biscayne National Park",
-      "Image": "biscayne.jpg",
+      "Image": "Biscayne.jpg",
       "ParkType": "National Park",
       "Year": 2023,
       "TRV": "571,242"
@@ -354,7 +354,7 @@ const parks = [
     {
       "RegionName": "Southeast  Region",
       "ParkName": "Biscayne National Park",
-      "Image": "biscayne.jpg",
+      "Image": "Biscayne.jpg",
       "ParkType": "National Park",
       "Year": 2022,
       "TRV": "701,023"
@@ -362,7 +362,7 @@ const parks = [
     {
       "RegionName": "Southeast  Region",
       "ParkName": "Biscayne National Park",
-      "Image": "biscayne.jpg",
+      "Image": "Biscayne.jpg",
       "ParkType": "National Park",
       "Year": 2021,
       "TRV": "705,655"
@@ -370,7 +370,7 @@ const parks = [
     {
       "RegionName": "Southeast  Region",
       "ParkName": "Biscayne National Park",
-      "Image": "biscayne.jpg",
+      "Image": "Biscayne.jpg",
       "ParkType": "National Park",
       "Year": 2020,
       "TRV": "402,770"
@@ -378,7 +378,7 @@ const parks = [
     {
       "RegionName": "Southeast  Region",
       "ParkName": "Biscayne National Park",
-      "Image": "biscayne.jpg",
+      "Image": "Biscayne.jpg",
       "ParkType": "National Park",
       "Year": 2019,
       "TRV": "708,522"
@@ -386,7 +386,7 @@ const parks = [
     {
       "RegionName": "Southeast  Region",
       "ParkName": "Chattahoochee River National Recreation Area",
-      "Image": "chattahoochee-river.jpg",
+      "Image": "Chattahoochee-River.jpg",
       "ParkType": "National Recreation Area",
       "Year": 2024,
       "TRV": "2,940,804"
@@ -394,7 +394,7 @@ const parks = [
     {
       "RegionName": "Southeast  Region",
       "ParkName": "Chattahoochee River National Recreation Area",
-      "Image": "chattahoochee-river.jpg",
+      "Image": "Chattahoochee-River.jpg",
       "ParkType": "National Recreation Area",
       "Year": 2023,
       "TRV": "3,183,081"
@@ -402,7 +402,7 @@ const parks = [
     {
       "RegionName": "Southeast  Region",
       "ParkName": "Chattahoochee River National Recreation Area",
-      "Image": "chattahoochee-river.jpg",
+      "Image": "Chattahoochee-River.jpg",
       "ParkType": "National Recreation Area",
       "Year": 2022,
       "TRV": "3,537,848"
@@ -410,7 +410,7 @@ const parks = [
     {
       "RegionName": "Southeast  Region",
       "ParkName": "Chattahoochee River National Recreation Area",
-      "Image": "chattahoochee-river.jpg",
+      "Image": "Chattahoochee-River.jpg",
       "ParkType": "National Recreation Area",
       "Year": 2021,
       "TRV": "3,256,151"
@@ -418,7 +418,7 @@ const parks = [
     {
       "RegionName": "Southeast  Region",
       "ParkName": "Chattahoochee River National Recreation Area",
-      "Image": "chattahoochee-river.jpg",
+      "Image": "Chattahoochee-River.jpg",
       "ParkType": "National Recreation Area",
       "Year": 2020,
       "TRV": "3,066,877"
@@ -426,7 +426,7 @@ const parks = [
     {
       "RegionName": "Southeast  Region",
       "ParkName": "Chattahoochee River National Recreation Area",
-      "Image": "chattahoochee-river.jpg",
+      "Image": "Chattahoochee-River.jpg",
       "ParkType": "National Recreation Area",
       "Year": 2019,
       "TRV": "3,393,133"
@@ -434,7 +434,7 @@ const parks = [
     {
       "RegionName": "Southeast  Region",
       "ParkName": "Congaree National Park",
-      "Image": "congaree.jpg",
+      "Image": "Congaree.jpg",
       "ParkType": "National Park",
       "Year": 2024,
       "TRV": "242,049"
@@ -442,7 +442,7 @@ const parks = [
     {
       "RegionName": "Southeast  Region",
       "ParkName": "Congaree National Park",
-      "Image": "congaree.jpg",
+      "Image": "Congaree.jpg",
       "ParkType": "National Park",
       "Year": 2023,
       "TRV": "250,114"
@@ -450,7 +450,7 @@ const parks = [
     {
       "RegionName": "Southeast  Region",
       "ParkName": "Congaree National Park",
-      "Image": "congaree.jpg",
+      "Image": "Congaree.jpg",
       "ParkType": "National Park",
       "Year": 2022,
       "TRV": "204,522"
@@ -458,7 +458,7 @@ const parks = [
     {
       "RegionName": "Southeast  Region",
       "ParkName": "Congaree National Park",
-      "Image": "congaree.jpg",
+      "Image": "Congaree.jpg",
       "ParkType": "National Park",
       "Year": 2021,
       "TRV": "215,181"
@@ -466,7 +466,7 @@ const parks = [
     {
       "RegionName": "Southeast  Region",
       "ParkName": "Congaree National Park",
-      "Image": "congaree.jpg",
+      "Image": "Congaree.jpg",
       "ParkType": "National Park",
       "Year": 2020,
       "TRV": "119,306"
@@ -474,7 +474,7 @@ const parks = [
     {
       "RegionName": "Southeast  Region",
       "ParkName": "Congaree National Park",
-      "Image": "congaree.jpg",
+      "Image": "Congaree.jpg",
       "ParkType": "National Park",
       "Year": 2019,
       "TRV": "159,445"
@@ -482,7 +482,7 @@ const parks = [
     {
       "RegionName": "Southeast  Region",
       "ParkName": "Dry Tortugas National Park",
-      "Image": "dry-tortugas.jpg",
+      "Image": "Dry-Tortugas.jpg",
       "ParkType": "National Park",
       "Year": 2024,
       "TRV": "84,873"
@@ -490,7 +490,7 @@ const parks = [
     {
       "RegionName": "Southeast  Region",
       "ParkName": "Dry Tortugas National Park",
-      "Image": "dry-tortugas.jpg",
+      "Image": "Dry-Tortugas.jpg",
       "ParkType": "National Park",
       "Year": 2023,
       "TRV": "84,285"
@@ -498,7 +498,7 @@ const parks = [
     {
       "RegionName": "Southeast  Region",
       "ParkName": "Dry Tortugas National Park",
-      "Image": "dry-tortugas.jpg",
+      "Image": "Dry-Tortugas.jpg",
       "ParkType": "National Park",
       "Year": 2022,
       "TRV": "78,488"
@@ -506,7 +506,7 @@ const parks = [
     {
       "RegionName": "Southeast  Region",
       "ParkName": "Dry Tortugas National Park",
-      "Image": "dry-tortugas.jpg",
+      "Image": "Dry-Tortugas.jpg",
       "ParkType": "National Park",
       "Year": 2021,
       "TRV": "83,817"
@@ -514,7 +514,7 @@ const parks = [
     {
       "RegionName": "Southeast  Region",
       "ParkName": "Dry Tortugas National Park",
-      "Image": "dry-tortugas.jpg",
+      "Image": "Dry-Tortugas.jpg",
       "ParkType": "National Park",
       "Year": 2020,
       "TRV": "48,543"
@@ -522,7 +522,7 @@ const parks = [
     {
       "RegionName": "Southeast  Region",
       "ParkName": "Dry Tortugas National Park",
-      "Image": "dry-tortugas.jpg",
+      "Image": "Dry-Tortugas.jpg",
       "ParkType": "National Park",
       "Year": 2019,
       "TRV": "79,200"
@@ -530,7 +530,7 @@ const parks = [
     {
       "RegionName": "Southeast  Region",
       "ParkName": "Everglades National Park",
-      "Image": "everglades.jpg",
+      "Image": "Everglades.jpg",
       "ParkType": "National Park",
       "Year": 2024,
       "TRV": "741,983"
@@ -538,7 +538,7 @@ const parks = [
     {
       "RegionName": "Southeast  Region",
       "ParkName": "Everglades National Park",
-      "Image": "everglades.jpg",
+      "Image": "Everglades.jpg",
       "ParkType": "National Park",
       "Year": 2023,
       "TRV": "810,189"
@@ -546,7 +546,7 @@ const parks = [
     {
       "RegionName": "Southeast  Region",
       "ParkName": "Everglades National Park",
-      "Image": "everglades.jpg",
+      "Image": "Everglades.jpg",
       "ParkType": "National Park",
       "Year": 2022,
       "TRV": "1,155,193"
@@ -554,7 +554,7 @@ const parks = [
     {
       "RegionName": "Southeast  Region",
       "ParkName": "Everglades National Park",
-      "Image": "everglades.jpg",
+      "Image": "Everglades.jpg",
       "ParkType": "National Park",
       "Year": 2021,
       "TRV": "942,130"
@@ -562,7 +562,7 @@ const parks = [
     {
       "RegionName": "Southeast  Region",
       "ParkName": "Everglades National Park",
-      "Image": "everglades.jpg",
+      "Image": "Everglades.jpg",
       "ParkType": "National Park",
       "Year": 2020,
       "TRV": "702,319"
@@ -570,7 +570,7 @@ const parks = [
     {
       "RegionName": "Southeast  Region",
       "ParkName": "Everglades National Park",
-      "Image": "everglades.jpg",
+      "Image": "Everglades.jpg",
       "ParkType": "National Park",
       "Year": 2019,
       "TRV": "1,118,300"
@@ -578,7 +578,7 @@ const parks = [
     {
       "RegionName": "Southeast  Region",
       "ParkName": "Great Smoky Mountains National Park",
-      "Image": "great-smoky-mountains.jpg",
+      "Image": "Great-Smoky-Mountains.jpg",
       "ParkType": "National Park",
       "Year": 2024,
       "TRV": "12,191,834"
@@ -586,7 +586,7 @@ const parks = [
     {
       "RegionName": "Southeast  Region",
       "ParkName": "Great Smoky Mountains National Park",
-      "Image": "great-smoky-mountains.jpg",
+      "Image": "Great-Smoky-Mountains.jpg",
       "ParkType": "National Park",
       "Year": 2023,
       "TRV": "13,297,647"
@@ -594,7 +594,7 @@ const parks = [
     {
       "RegionName": "Southeast  Region",
       "ParkName": "Great Smoky Mountains National Park",
-      "Image": "great-smoky-mountains.jpg",
+      "Image": "Great-Smoky-Mountains.jpg",
       "ParkType": "National Park",
       "Year": 2022,
       "TRV": "12,937,633"
@@ -602,7 +602,7 @@ const parks = [
     {
       "RegionName": "Southeast  Region",
       "ParkName": "Great Smoky Mountains National Park",
-      "Image": "great-smoky-mountains.jpg",
+      "Image": "Great-Smoky-Mountains.jpg",
       "ParkType": "National Park",
       "Year": 2021,
       "TRV": "14,161,548"
@@ -610,7 +610,7 @@ const parks = [
     {
       "RegionName": "Southeast  Region",
       "ParkName": "Great Smoky Mountains National Park",
-      "Image": "great-smoky-mountains.jpg",
+      "Image": "Great-Smoky-Mountains.jpg",
       "ParkType": "National Park",
       "Year": 2020,
       "TRV": "12,095,720"
@@ -618,7 +618,7 @@ const parks = [
     {
       "RegionName": "Southeast  Region",
       "ParkName": "Great Smoky Mountains National Park",
-      "Image": "great-smoky-mountains.jpg",
+      "Image": "Great-Smoky-Mountains.jpg",
       "ParkType": "National Park",
       "Year": 2019,
       "TRV": "12,547,743"
@@ -674,7 +674,7 @@ const parks = [
     {
       "RegionName": "Southeast  Region",
       "ParkName": "Virgin Islands National Park",
-      "Image": "virgin-islands.jpg",
+      "Image": "Virgin-Islands.jpg",
       "ParkType": "National Park",
       "Year": 2024,
       "TRV": "423,029"
@@ -682,7 +682,7 @@ const parks = [
     {
       "RegionName": "Southeast  Region",
       "ParkName": "Virgin Islands National Park",
-      "Image": "virgin-islands.jpg",
+      "Image": "Virgin-Islands.jpg",
       "ParkType": "National Park",
       "Year": 2023,
       "TRV": "343,685"
@@ -690,7 +690,7 @@ const parks = [
     {
       "RegionName": "Southeast  Region",
       "ParkName": "Virgin Islands National Park",
-      "Image": "virgin-islands.jpg",
+      "Image": "Virgin-Islands.jpg",
       "ParkType": "National Park",
       "Year": 2022,
       "TRV": "196,752"
@@ -698,7 +698,7 @@ const parks = [
     {
       "RegionName": "Southeast  Region",
       "ParkName": "Virgin Islands National Park",
-      "Image": "virgin-islands.jpg",
+      "Image": "Virgin-Islands.jpg",
       "ParkType": "National Park",
       "Year": 2021,
       "TRV": "323,999"
@@ -706,7 +706,7 @@ const parks = [
     {
       "RegionName": "Southeast  Region",
       "ParkName": "Virgin Islands National Park",
-      "Image": "virgin-islands.jpg",
+      "Image": "Virgin-Islands.jpg",
       "ParkType": "National Park",
       "Year": 2020,
       "TRV": "167,540"
@@ -714,7 +714,7 @@ const parks = [
     {
       "RegionName": "Southeast  Region",
       "ParkName": "Virgin Islands National Park",
-      "Image": "virgin-islands.jpg",
+      "Image": "Virgin-Islands.jpg",
       "ParkType": "National Park",
       "Year": 2019,
       "TRV": "133,398"
