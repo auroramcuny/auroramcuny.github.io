@@ -12,17 +12,21 @@
     <h1>National Parks in the East Coast</h1>
     <!-- <h2>North East</h2> -->
     <div class="dropdown">
-        <select id="filterDropdown1">
-            <option value="all">Filter by Region</option>
-            <option value="Southeast  Region">Southeast</option>
-            <option value="Northeast  Region">Northeast</option>
-        </select>
+        <label for=“filterDropdown1”>Region:</label>
+            <select id="filterDropdown1">
+                <!-- <option value="all">Regions</option> -->
+                <option value="all">All Regions</option>
+                <option value="Southeast  Region">Southeast</option>
+                <option value="Northeast  Region">Northeast</option>
+            </select>
 
-        <select id="filterDropdown2">
-            <option value="all">Filter by Type of National Park</option>
-            <option value="National Park">National Park</option>
-            <option value="National Recreation Area">National Recreation Area</option>
-        </select>
+            <label for=“filterDropdown1”>Park Type:</label>
+            <select id="filterDropdown2">
+                <!-- <option value="all">Park Type</option> -->
+                <option value="all">All Types</option>
+                <option value="National Park">National Park</option>
+                <option value="National Recreation Area">National Recreation Area</option>
+            </select>
     </div>
 
     <div class="container" id="container"></div>

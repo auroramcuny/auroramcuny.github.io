@@ -723,10 +723,8 @@ const parks = [
 
 let container = document.getElementById('container');
 
-// Group parks by ParkName
+// Group parks by name
 const groupedParks = parks.reduce((acc, park) => {
-    // Normalize TRV to a number, or set it to null if empty
-    park.TRV = park.TRV ? parseInt(park.TRV.replace(/,/g, ''), 10) : null;
 
     if (!acc[park.ParkName]) {
         acc[park.ParkName] = [];
@@ -735,19 +733,17 @@ const groupedParks = parks.reduce((acc, park) => {
     return acc;
 }, {});
 
-// Function to create cards with a table for each park
+// Create cards with a table for each park
 function makeCards(ParkName, Image, ParkType, RegionName, parkData) {
-    // Create a div
+   
     let elementDiv = document.createElement('div');
 
-    // Add a class
     elementDiv.classList.add('photo-container');
 
     elementDiv.setAttribute('region', RegionName);
     elementDiv.setAttribute('type', ParkType);
     console.log(RegionName);
 
-    // Create the card header
     let cardHeader = `
         <h2 class="name">${ParkName}</h2>
         <img src="${Image}" alt="${ParkName}">
@@ -755,7 +751,6 @@ function makeCards(ParkName, Image, ParkType, RegionName, parkData) {
         <p><span>Region:</span> ${RegionName}</p>
     `;
 
-    // Create a table for the years and TRV
     let table = `
         <table class="visitors">
             <thead>
@@ -782,17 +777,15 @@ function makeCards(ParkName, Image, ParkType, RegionName, parkData) {
     container.append(elementDiv);
 }
 
-// Loop through the grouped parks and create cards
 Object.keys(groupedParks).forEach(ParkName => {
     const parkData = groupedParks[ParkName];
-    const { ParkType, RegionName, Image } = parkData[0]; // Use the first entry for common details
+    const { ParkType, RegionName, Image } = parkData[0]; 
     makeCards(ParkName, Image, ParkType, RegionName, parkData);
 });
 
 let dropdown1 = document.getElementById('filterDropdown1');
 let dropdown2 = document.getElementById('filterDropdown2');
 
-// Declare cards only once
 let cards = document.querySelectorAll('div.photo-container'); 
 
 dropdown1.addEventListener('change', filterCards);

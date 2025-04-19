@@ -18,11 +18,8 @@ h1 {
     text-align: center;
     color: #FFFF;
     background-color: #509344;
-
-}
-
-div.dropdown {
-    margin: auto;
+    cursor: none;
+    padding: 20px;
 }
 
 h2.name {
@@ -41,10 +38,13 @@ h2.name {
     /* word-wrap: break-word; */
 }
 
-p {
+p, label, select {
     font-family: "Open Sans", sans-serif;
     font-size: 1em;
+}
 
+label {
+    font-weight: bold;
 }
 
 span {
@@ -61,6 +61,7 @@ div.container {
     width: 100%;
     margin: 0 auto;
     flex-wrap: wrap;
+    cursor: pointer;
 }
 
 div.photo-container {
@@ -73,6 +74,12 @@ div.photo-container {
     /* max-width: 30%; */
     background-color: #e6e3e0;
 
+}
+
+div.photo-container:hover {
+    background-color: #f0f0f0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 img {
@@ -101,14 +108,22 @@ th, td {
     border-bottom: 1px solid #080B0F;
 }
 
-select {
+.dropdown{
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    margin-top: 1%;
+    margin-top: 5px;
     font-size: 16px;
+    color: #980A30;
 }
+
+select {
+    color: #980A30;
+    margin: 5px;
+    cursor: pointer;
+}
+
 
 
 @media (min-width: 601px) and (max-width: 1199px) { 
@@ -134,14 +149,16 @@ select {
     }
 
 
-}
+
+    }
+
 
 @media (max-width: 375px) {
 
     body {
         margin: 0;
         padding: 0;
-        overflow-x: hidden; /* Prevent horizontal scrolling */
+        overflow-x: hidden;
     }
 
     h1, p {
@@ -155,7 +172,7 @@ select {
     }
 
     div.photo-container {
-        width: 100%;
+        width: 80%;
         margin: 0 auto;
         padding: 10px;
     }
@@ -169,15 +186,17 @@ select {
         font-size: 16px;
         padding-top: 5px;
         padding-bottom: 5px;
-        text-align: center; /* Center the text */
+        text-align: center;
     }
 
     p {
         font-size: 0.9em;
-        text-align: center; /* Center the text */
+        text-align: center;
     }
 
     div.dropdown {
-        margin: 10px auto; /* Center the dropdown */
+        display: flex;
+        flex-direction: column;
+        margin: 10px auto; 
     }
 }
